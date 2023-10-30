@@ -13,19 +13,18 @@
 }
 .our-team {
     display: grid;
-    grid-template-columns: repeat(3, 3fr); /* 3 columns */
-    grid-template-rows: repeat(2, 4fr); /* 2 rows with equal height */
-    column-gap: auto; /* Add a gap of 20px between rows and columns */
+    grid-template-columns: repeat(3, auto); /* 3 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows with equal height */
+    justify-content: space-around;
     row-gap: 2rem;
-    margin-left: 10%;
-    margin-right: 2%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
     .our-team {
         display: grid;
         grid-template-columns: repeat(2, auto); /* 3 columns */
         grid-template-rows: repeat(2, auto); /* 2 rows with equal height */
+        justify-content: space-evenly;
     }
 }
 
