@@ -1,0 +1,29 @@
+.choose-container {
+    display: flex;
+    flex-direction: column;
+    max-height: auto;
+    height: auto;
+    gap: 3rem;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.reason-to-choose {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+.choose-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-left: 8rem;
+}
+.read-more-button {
+    padding: 0.3rem;
+    border-radius: 1rem;
+    border: 0;
+    margin-top: 1rem;
+    background-color: var(--yellow-color);
+}

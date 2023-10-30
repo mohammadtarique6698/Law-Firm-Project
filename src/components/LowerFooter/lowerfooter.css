@@ -1,0 +1,10 @@
+.lower-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding-bottom: 7%;
+    cursor: pointer;
+}

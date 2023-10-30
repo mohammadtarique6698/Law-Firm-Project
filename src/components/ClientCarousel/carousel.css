@@ -1,0 +1,37 @@
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-bottom: 4%;
+  margin-top: 10rem;
+}
+.details-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+}
+.arrow-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem
+}
+.client-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+

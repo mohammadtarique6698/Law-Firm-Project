@@ -1,0 +1,10 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    z-index: 5;
+    text-align: center;
+    background-color: var(--yellow-color);
+    color: var(--primary-color);
+}

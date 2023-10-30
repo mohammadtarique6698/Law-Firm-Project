@@ -1,0 +1,26 @@
+.outer-container {
+    margin-left: 7%;
+    margin-right: 7%;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    height: 27rem;
+}
+.subscribe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgba(71, 71, 71, 0.5);
+    height: auto;
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: var(--white-color);
+}
+.input-div {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}

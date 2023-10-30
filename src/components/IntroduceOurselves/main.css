@@ -1,0 +1,41 @@
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+    background-color: var(--secondary-color);
+    height: auto;
+    color: var(--white-color);
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  
+  .introduce {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 8rem;
+    font-weight: 600;
+    font-size: 54px;
+  }
+  
+  .partition {
+    margin-top: 7rem;
+  }
+  
+  .lawyer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: left;
+    margin-top: 9rem;
+  }
+  
+  .lawyer h3 {
+    color: var(--white-color); /* Moved color styling to CSS */
+  }
+  
+  .lawyer p {
+    margin-top: 2rem;
+    opacity: 0.3; /* Moved margin and opacity styling to CSS */
+  }

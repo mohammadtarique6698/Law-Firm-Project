@@ -1,0 +1,41 @@
+.intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 8%;
+    margin-right: 8%;
+    max-height: auto;
+    height: auto;
+}
+.intro-part-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.intro-part-1-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.intro-part-1-1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 65%;
+}
+.lets-talk-button {
+    border-radius: 2rem;
+    padding: 0.9rem;
+    background-color: var(--yellow-color);
+}
+/* .email {
+    display: flex;
+    padding-bottom: 3rem;
+}
+.mail-icon {
+    position: relative;
+    top: 14px;
+    left: 2rem;
+}
+ */
