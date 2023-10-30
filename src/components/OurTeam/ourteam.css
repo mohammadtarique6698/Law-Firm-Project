@@ -15,9 +15,17 @@
     display: grid;
     grid-template-columns: repeat(3, 3fr); /* 3 columns */
     grid-template-rows: repeat(2, 4fr); /* 2 rows with equal height */
-    column-gap: 6rem; /* Add a gap of 20px between rows and columns */
+    column-gap: auto; /* Add a gap of 20px between rows and columns */
     row-gap: 2rem;
     margin-left: 10%;
     margin-right: 2%;
+}
+
+@media screen and (max-width: 900px) {
+    .our-team {
+        display: grid;
+        grid-template-columns: repeat(2, auto); /* 3 columns */
+        grid-template-rows: repeat(2, auto); /* 2 rows with equal height */
+    }
 }
 

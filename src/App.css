@@ -1,8 +1,12 @@
+body {
+  width: 100vw;
+}
 .App {
   text-align: center;
   width: 100%;
   background-color: var(--primary-color);
 }
+
 
 
 

@@ -37,7 +37,7 @@
 .profession-business {
   position: relative;
   bottom: 5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 /* ============================================== */
@@ -55,7 +55,7 @@
 .profession-partnership {
   position: relative;
   bottom: 5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 /* ============================================== */
@@ -78,7 +78,7 @@
 .real-estate {
   position: relative;
   bottom: 5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 /* ============================================== */
@@ -96,7 +96,7 @@
   .business-law {
     position: relative;
     bottom: 5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
   }
 /* ============================================== */
@@ -119,7 +119,7 @@
   .landlord-disputes {
     position: relative;
     bottom: 5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
   }
   /* ============================================== */
@@ -137,6 +137,6 @@
   .elder-abuse {
     position: relative;
     bottom: 5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
   }

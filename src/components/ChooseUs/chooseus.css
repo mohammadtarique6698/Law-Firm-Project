@@ -17,8 +17,8 @@
 .choose-cards {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
-    margin-left: 8rem;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .read-more-button {
     padding: 0.3rem;
